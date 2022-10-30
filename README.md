@@ -162,7 +162,6 @@ locals {
 In this example, `tfinclude` is not used under the sub2 directory.
 
 ```
-$ cat sub1/terragrunt.hcl
 include "root" {
   path = find_in_parent_folders()
 }
